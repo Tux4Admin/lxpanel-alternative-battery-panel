@@ -40,4 +40,8 @@ the panel. "n.s" stands for nothing selected to be displayed. After a right clic
 
 ![alt text](https://github.com/Tux4Admin/lxpanel-alternative-battery-panel/blob/master/pics/settings.png)
 
-Here you can select what to display.
+Here you can select what to display. If you want the percentage text to have charging or discharging color set the checkbox. You an choose the charging and discharging color. If the battery reaches a state of charge, which you can set, a notification will be sent. You can customize the text of the notification. At last you can select the number of the battery, you are using.
+
+
+
+
