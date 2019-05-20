@@ -5,7 +5,7 @@ A battery monitor plugin for LXPanel, which is able to show a battery icon and/o
 ![alt text](https://github.com/Tux4Admin/lxpanel-alternative-battery-panel/blob/master/pics/plugin_1.png)
 
 This is a simple battery plugin for LXPanel (default panel of the LXDE Desktop Enviroment), which is able to show a battery icon
-and/or the state of charge in percent. I have tested the plugin with Arch Linux and Fedora. 
+and/or the state of charge in percent. I have tested the plugin with Lubuntu, Arch Linux and Fedora. 
 
 ## Compile the source code
 If you like to compile the source code, download the code, go to the folder and use this command to compile the plugin.
@@ -20,6 +20,13 @@ Make sure, you have installed all the necessary libaries. You can find them on t
 ## Use the applet
 If you want to use the applet with LXPanel, compile the code or download the plugin file BatteryStatePlugin.so. For using the battery
 icon, you need to install the awesome-font.
+
+On Lubuntu, Ubuntu or Debian with lxpanel installed you have to run this commands:
+```
+sudo apt install fonts-font-awesome
+sudo cp BatteryStatePlugin.so /usr/lib/x86-64linux-gnu/lxpanel/plugins/
+```
+
 
 On Arch Linux you can do this, by executing follow command as root:
 ```
